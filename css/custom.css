@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Fraunces:opsz@9..144&family=Gemunu+Libre:wght@300&family=Nunito+Sans:wght@200&family=Roboto:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Ephesis&family=Fraunces:opsz@9..144&family=Gemunu+Libre:wght@300&family=Nunito+Sans:wght@200&family=Roboto:wght@700&display=swap");
+
+/**Estilos General*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#chatWhatsApp {
+  width: 64px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+/*Header*/
+.header {
+  background: #dae2f8;
+  background: -webkit-linear-gradient(to right, #d6a4a4, #dae2f8);
+  background: linear-gradient(to right, #d6a4a4, #dae2f8);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-size: cover;
+}
+
+.header__NombreEmpresa {
+  color: #1ec4e6;
+  font-size: 3em;
+  font-family: "Fraunces", serif;
+  margin: 0px;
+  text-align: center;
+  margin: 0px;
+  background-position: center;
+}
+
+.header__sloganEmpresa {
+  font-size: 1.5em;
+  font-family: Roboto, Courier, monospace;
+  margin: 0px;
+  text-align: center;
+  font-family: "Bruno Ace SC", cursive;
+}
+
+#notificacion {
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  background-color: #faeee7;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #111;
+  height: 150px;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+  margin: 0;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.footer-content p {
+  text-align: center;
+}
